@@ -1,73 +1,765 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width" />
-    <title>Broc Weselmann</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broc Weselmann</title>
+  <meta name="description" content="Broc Weselmann: Computer Science student at UCF (Class of 2027) building multi-agent LLM pipelines, developer tools, and games.">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Broc Weselmann">
+  <meta property="og:description" content="Computer Science @ UCF. Agentic AI, developer tools, and games.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/15164876?v=4">
+  <meta property="og:url" content="https://brocweselmann.com">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/15164876?s=64&v=4">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <h1>Broc</h1>
-    <p class="header-lastname">Weselmann</p>
-    <p class="header-pronouns"><a href="https://en.pronouns.page/he">he/him</a></p>
-    
-    <div class="header-links">
-      <p><u>Navigation</u></p>
-      <p><a href="#me">Me</a> <a href="#technologies">Technologies</a> <a href="#work">Work</a></p>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/15164876?s=320&v=4" alt="Broc Weselmann" width="160" height="160">
+      <div class="hero-text">
+        <h1><span class="first">Broc</span> <span class="last">Weselmann</span></h1>
+        <p class="pronouns">he/him · Florida, United States of America</p>
+        <p class="tagline">Computer Science @ <strong>UCF</strong>, graduating May 2027. I study the <a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">mechanistic interpretability</a> of large language models (LLMs), build Discord bots, and make games. I thrive in environments where learning is crucial and no details can be missed.</p>
+        <div class="cta">
+          <a class="btn btn--primary" href="assets/Broc_Weselmann_Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+          <a class="btn" href="mailto:brocweselmann@gmail.com">Email me</a>
+        </div>
+        <ul class="socials" aria-label="Elsewhere">
+          <li><a href="https://github.com/brocw" rel="me noopener">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/brocweselmann" rel="me noopener">LinkedIn</a></li>
+          <li><a href="https://bsky.app/profile/brocw.bsky.social" rel="me noopener">Bluesky</a></li>
+          <li><a href="https://brocw.substack.com" rel="me noopener">Substack</a></li>
+          <li><a href="https://www.sledgehogsoftware.com" rel="noopener">Sledgehog Software</a></li>
+        </ul>
+      </div>
+      <div class="hero-about">
+        <h2>About</h2>
+        <p>I like learning, building, and exploring artificially intelligent systems. Lately, that means forging multi-agent LLM pipelines like Encyclopedia AI, which is an encyclopedia that drafts, critiques, and revises its own articles. Before that I made <a href="https://store.steampowered.com/app/1697070/A_Frail_Qubit/" rel="noopener">A Frail Qubit</a>, a solo puzzle game on Steam, and helped coordinate the 50+ volunteers behind <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2438003901">The New Order</a>, a mod with 500,000+ players. <a href="#projects">See all of my GitHub projects ↓</a></p>
+        <p>In my personal life, I run, tidy up Wikipedia articles, and defend my Wordle record in the SINE Discord. <a href="#personal">Read more ↓</a></p>
+      </div>
     </div>
+  </header>
 
-    <div class="seperation"></div>
+  <nav class="nav" aria-label="Sections">
+    <div class="wrap">
+      <a href="#projects">Projects &amp; Skills</a>
+      <a href="#experience">Work Experience</a>
+      <a href="#personal">Personal</a>
+      <a href="#feed">Social Media Feed</a>
+    </div>
+  </nav>
 
-    <h2 id="me">Me</h2>
-    <p>Hi, I'm Broc.</p>
-    <p>I'm a Computer Scientist and Game Developer, creating games under <a href="https://www.sledgehogsoftware.com">Sledgehog Software</a>.</p>
-    <p>Currently, I'm studying Computer Science at the <strong>University of Central Florida</strong>. I previously earned an <strong>Associate's Degree</strong> from <strong>Daytona State College</strong> in May 2024.</p>
-    <p>Before that, I attended <strong>Florida State University</strong> and graduated from <strong>New Smyrna Beach High School</strong> in 2019.</p>
+  <main id="main">
 
-    <div class="seperation"></div>
+    <section id="projects" class="wrap section">
+      <div class="section-head">
+        <h2>Projects &amp; Skills</h2>
+        <a class="more" href="https://github.com/brocw?tab=repositories" rel="noopener">All repositories on GitHub ↗</a>
+      </div>
+      <div class="skills" role="group" aria-label="Filter projects by skill">
+    <!-- generated:skills -->
+    <div class="skill-group"><h3>Languages</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="python" aria-pressed="false">Python <span class="chip-count" aria-label="4 projects">4</span></button></li><li><button type="button" class="chip" data-skill="typescript" aria-pressed="false">TypeScript <span class="chip-count" aria-label="3 projects">3</span></button></li><li><button type="button" class="chip" data-skill="javascript" aria-pressed="false">JavaScript <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="go" aria-pressed="false">Go <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="rust" aria-pressed="false">Rust <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="gdscript" aria-pressed="false">GDScript <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="paradox script" aria-pressed="false">Paradox Script <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <div class="skill-group"><h3>AI &amp; ML</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="pytorch" aria-pressed="false">PyTorch <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="rocm" aria-pressed="false">ROCm <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="numpy" aria-pressed="false">NumPy <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="multi-agent llm pipelines" aria-pressed="false">Multi-agent LLM pipelines <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="prompt engineering" aria-pressed="false">Prompt engineering <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="transformers" aria-pressed="false">Transformers <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="generative ai" aria-pressed="false">Generative AI <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="ollama" aria-pressed="false">Ollama <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="openrouter" aria-pressed="false">OpenRouter <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="hugging face" aria-pressed="false">Hugging Face <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="gguf" aria-pressed="false">GGUF <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <div class="skill-group"><h3>Web &amp; Apps</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="vite" aria-pressed="false">Vite <span class="chip-count" aria-label="3 projects">3</span></button></li><li><button type="button" class="chip" data-skill="react" aria-pressed="false">React <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="node.js" aria-pressed="false">Node.js <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="express" aria-pressed="false">Express <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="svelte" aria-pressed="false">Svelte <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="sveltekit" aria-pressed="false">SvelteKit <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="tauri" aria-pressed="false">Tauri <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="tailwind css" aria-pressed="false">Tailwind CSS <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="discord.js" aria-pressed="false">discord.js <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="chart.js" aria-pressed="false">Chart.js <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="server-sent events" aria-pressed="false">Server-Sent Events <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="jwt" aria-pressed="false">JWT <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="bcrypt" aria-pressed="false">bcrypt <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="google maps api" aria-pressed="false">Google Maps API <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="sendgrid" aria-pressed="false">SendGrid <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="gtk4" aria-pressed="false">GTK4 <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="pygobject" aria-pressed="false">PyGObject <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="d-bus" aria-pressed="false">D-Bus <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <div class="skill-group"><h3>Data &amp; Optimization</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="sqlite" aria-pressed="false">SQLite <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="mongodb" aria-pressed="false">MongoDB <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="pandas" aria-pressed="false">pandas <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="scipy" aria-pressed="false">SciPy <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="or-tools" aria-pressed="false">OR-Tools <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="shapely" aria-pressed="false">Shapely <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="streamlit" aria-pressed="false">Streamlit <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="plotly" aria-pressed="false">Plotly <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="folium" aria-pressed="false">Folium <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <div class="skill-group"><h3>Tools &amp; Platforms</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="github actions" aria-pressed="false">GitHub Actions <span class="chip-count" aria-label="3 projects">3</span></button></li><li><button type="button" class="chip" data-skill="digitalocean" aria-pressed="false">DigitalOcean <span class="chip-count" aria-label="2 projects">2</span></button></li><li><button type="button" class="chip" data-skill="git" aria-pressed="false">Git <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="gitlab" aria-pressed="false">GitLab <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="pm2" aria-pressed="false">PM2 <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="eslint" aria-pressed="false">ESLint <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="vitest" aria-pressed="false">Vitest <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="gnu/linux" aria-pressed="false">GNU/Linux <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <div class="skill-group"><h3>Games &amp; Teams</h3><ul class="chips" data-limit="8"><li><button type="button" class="chip" data-skill="godot engine" aria-pressed="false">Godot Engine <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="game design" aria-pressed="false">Game design <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="pixel art" aria-pressed="false">Pixel art <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="steam" aria-pressed="false">Steam <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="project management" aria-pressed="false">Project management <span class="chip-count" aria-label="1 project">1</span></button></li><li><button type="button" class="chip" data-skill="technical writing" aria-pressed="false">Technical writing <span class="chip-count" aria-label="1 project">1</span></button></li></ul></div>
+    <!-- /generated:skills -->
+      </div>
+      <p class="skill-status" aria-live="polite" hidden><span></span> <button type="button" class="link-btn">Show all projects</button></p>
+      <ul class="projects">
+    <!-- generated:projects -->
+    <li class="project" data-skills="go|multi-agent llm pipelines|prompt engineering|ollama|openrouter|sqlite|server-sent events|javascript|github actions">
+      <a class="project-media" href="https://github.com/brocw/encyclopedia-ai" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/repos/brocw--encyclopedia-ai.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/encyclopedia-ai" rel="noopener">Encyclopedia AI</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="go">Go</li><li class="chip" data-skill="multi-agent llm pipelines">Multi-agent LLM pipelines</li><li class="chip" data-skill="prompt engineering">Prompt engineering</li><li class="chip" data-skill="ollama">Ollama</li><li class="chip" data-skill="openrouter">OpenRouter</li><li class="chip" data-skill="sqlite">SQLite</li><li class="chip" data-skill="server-sent events">Server-Sent Events</li><li class="chip" data-skill="javascript">JavaScript</li><li class="chip" data-skill="github actions">GitHub Actions</li></ul>
+        <ul><li>Automated article writing with a <strong>9-stage multi-agent Go pipeline</strong> (intake, outline, section drafting, evaluate, compare, plan, revise, metadata) that critiques and revises its own output.</li><li>Kept long reasoning runs reliable with a provider layer for Ollama and OpenAI-compatible APIs, structured-output repair and retries, and <strong>resumable SQLite-backed jobs</strong> streamed over SSE.</li></ul>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="javascript|node.js|discord.js|chart.js|sqlite|github actions|pm2|digitalocean">
+      <a class="project-media" href="https://github.com/brocw/sinebot" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/projects/sinebot.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/sinebot" rel="noopener">SINEBot</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="javascript">JavaScript</li><li class="chip" data-skill="node.js">Node.js</li><li class="chip" data-skill="discord.js">discord.js</li><li class="chip" data-skill="chart.js">Chart.js</li><li class="chip" data-skill="sqlite">SQLite</li><li class="chip" data-skill="github actions">GitHub Actions</li><li class="chip" data-skill="pm2">PM2</li><li class="chip" data-skill="digitalocean">DigitalOcean</li></ul>
+        <ul><li>Discord bot for UCF's Society of Innovation and Neurodiversity in Engineering, used daily by <strong>about a dozen members on each of 2 servers</strong>, built around a plugin registry of daily games with Chart.js analytics.</li><li><strong>Increased engagement and retention</strong> by shipping leaderboards, trend graphs, and distributions based on user feedback.</li></ul>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="typescript|react|express|mongodb|node.js|jwt|bcrypt|vite|google maps api|sendgrid|github actions|digitalocean|eslint">
+      <a class="project-media" href="https://github.com/brocw/mern-travel-agent" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/projects/triptastic.jpg" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/mern-travel-agent" rel="noopener">TripTastic</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="typescript">TypeScript</li><li class="chip" data-skill="react">React</li><li class="chip" data-skill="express">Express</li><li class="chip" data-skill="mongodb">MongoDB</li><li class="chip" data-skill="node.js">Node.js</li><li class="chip" data-skill="jwt">JWT</li><li class="chip" data-skill="bcrypt">bcrypt</li><li class="chip" data-skill="vite">Vite</li><li class="chip" data-skill="google maps api">Google Maps API</li><li class="chip" data-skill="sendgrid">SendGrid</li><li class="chip" data-skill="github actions">GitHub Actions</li><li class="chip" data-skill="digitalocean">DigitalOcean</li><li class="chip" data-skill="eslint">ESLint</li></ul>
+        <ul><li>Ended manual FTP re-uploads for a <strong>team of 6</strong> by automating DigitalOcean deploys with a <strong>GitHub Actions CI/CD pipeline</strong> and PR integration tests.</li><li>Set up the repo, MongoDB database, JWT auth, and bcrypt password hashing for a React/TypeScript web app.</li></ul>
+        <p class="project-meta"><span title="GitHub stars">★ 1</span></p>
+      </div>
+    </li>
+    <li class="project" data-skills="python|or-tools|numpy|pandas|scipy|shapely|streamlit|folium|plotly">
+      <a class="project-media" href="https://github.com/brocw/knight_hacks_viii" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/projects/drone-route-optimizer.jpg" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/knight_hacks_viii" rel="noopener">Drone Route Optimizer</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="python">Python</li><li class="chip" data-skill="or-tools">OR-Tools</li><li class="chip" data-skill="numpy">NumPy</li><li class="chip" data-skill="pandas">pandas</li><li class="chip" data-skill="scipy">SciPy</li><li class="chip" data-skill="shapely">Shapely</li><li class="chip" data-skill="streamlit">Streamlit</li><li class="chip" data-skill="folium">Folium</li><li class="chip" data-skill="plotly">Plotly</li></ul>
+        <ul><li><strong>Routed a drone across a graph of 2,500+ nodes</strong> for NextEra Energy's KnightHacks VIII challenge, designing the routing algorithm with VRP heuristics and OR-Tools.</li></ul>
+        <p class="project-meta"><span title="GitHub stars">★ 1</span></p>
+      </div>
+    </li>
+    <li class="project" data-skills="python|pytorch|transformers|rocm|numpy|gguf">
+      <a class="project-media" href="https://github.com/brocw/gpt-1" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/repos/brocw--gpt-1.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/gpt-1" rel="noopener">GPT-1 Language Model</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="python">Python</li><li class="chip" data-skill="pytorch">PyTorch</li><li class="chip" data-skill="transformers">Transformers</li><li class="chip" data-skill="rocm">ROCm</li><li class="chip" data-skill="numpy">NumPy</li><li class="chip" data-skill="gguf">GGUF</li></ul>
+        <ul><li>Generated Shakespeare-style prose over a 1,000-token context window by pre-training a <strong>GPT-1-like transformer in PyTorch</strong> with scaled residual projections and checkpointing.</li></ul>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="gdscript|godot engine|game design|pixel art|steam">
+      <a class="project-media" href="https://store.steampowered.com/app/1697070/A_Frail_Qubit/" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/projects/a-frail-qubit.jpg" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://store.steampowered.com/app/1697070/A_Frail_Qubit/" rel="noopener">A Frail Qubit</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="gdscript">GDScript</li><li class="chip" data-skill="godot engine">Godot Engine</li><li class="chip" data-skill="game design">Game design</li><li class="chip" data-skill="pixel art">Pixel art</li><li class="chip" data-skill="steam">Steam</li></ul>
+        <ul><li>A story-based puzzle game with <strong>over 60 handcrafted levels</strong>. I built all the mechanics, narrative, and pixel art solo in Godot.</li></ul>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="paradox script|project management|technical writing|git|gitlab">
+      <a class="project-media" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2438003901" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/projects/tno.jpg" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2438003901" rel="noopener">The New Order: Last Days of Europe</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="paradox script">Paradox Script</li><li class="chip" data-skill="project management">Project management</li><li class="chip" data-skill="technical writing">Technical writing</li><li class="chip" data-skill="git">Git</li><li class="chip" data-skill="gitlab">GitLab</li></ul>
+        <ul><li><strong>Coordinated a fully remote team of 50+ volunteers</strong> behind a total-overhaul mod with <strong>500,000+ players</strong>.</li><li><strong>Onboarded over a dozen volunteers</strong> with the Git guide I wrote, while implementing event chains, GUIs, and content.</li></ul>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="typescript|react|python|pytorch|rocm|generative ai|hugging face|tailwind css|vite|vitest">
+      <a class="project-media" href="https://github.com/Ywrd10/Campus-Time-Machine" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/repos/Ywrd10--Campus-Time-Machine.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/Ywrd10/Campus-Time-Machine" rel="noopener">Campus Time Machine</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="typescript">TypeScript</li><li class="chip" data-skill="react">React</li><li class="chip" data-skill="python">Python</li><li class="chip" data-skill="pytorch">PyTorch</li><li class="chip" data-skill="rocm">ROCm</li><li class="chip" data-skill="generative ai">Generative AI</li><li class="chip" data-skill="hugging face">Hugging Face</li><li class="chip" data-skill="tailwind css">Tailwind CSS</li><li class="chip" data-skill="vite">Vite</li><li class="chip" data-skill="vitest">Vitest</li></ul>
+        <p>Reimagine UCF through AI-generated video. A campus-map studio powered by Kandinsky 6 Lite on AMD Radeon Cloud with ROCm, with a shared Journey Wall archived on Hugging Face. Built for Knight Hacks IX.</p>
+        <p class="project-meta"><span title="GitHub stars">★ 3</span><span>with @Ywrd10</span></p>
+      </div>
+    </li>
+    <li class="project" data-skills="svelte|sveltekit|typescript|tauri|rust|vite">
+      <a class="project-media" href="https://github.com/brocw/broc-app" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/repos/brocw--broc-app.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/broc-app" rel="noopener">broc-app</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="svelte">Svelte</li><li class="chip" data-skill="sveltekit">SvelteKit</li><li class="chip" data-skill="typescript">TypeScript</li><li class="chip" data-skill="tauri">Tauri</li><li class="chip" data-skill="rust">Rust</li><li class="chip" data-skill="vite">Vite</li></ul>
+        <p>Personalized Windows and Linux desktop app</p>
+        
+      </div>
+    </li>
+    <li class="project" data-skills="python|gtk4|pygobject|d-bus|gnu/linux">
+      <a class="project-media" href="https://github.com/brocw/broc-launch" rel="noopener" tabindex="-1" aria-hidden="true"><img src="assets/repos/brocw--broc-launch.png" alt="" loading="lazy" decoding="async"></a>
+      <div class="project-body">
+        <h3><a href="https://github.com/brocw/broc-launch" rel="noopener">broc-launch</a></h3>
+        <ul class="chips chips--sm" data-limit="5"><li class="chip" data-skill="python">Python</li><li class="chip" data-skill="gtk4">GTK4</li><li class="chip" data-skill="pygobject">PyGObject</li><li class="chip" data-skill="d-bus">D-Bus</li><li class="chip" data-skill="gnu/linux">GNU/Linux</li></ul>
+        <p>A GTK4 application to quicken web search and AI questions.</p>
+        
+      </div>
+    </li>
+    <!-- /generated:projects -->
+      </ul>
+    </section>
 
-    <h2 id="technologies">Technologies</h2>
-    <h3>C/C++</h3>
-    <p>I began learning <strong>C++</strong> in 8th grade through the <a href="https://github.com/planetchili/chili_framework">Chili Framework</a>, making it my first programming language.</p>
-    <p>Later, I learned <strong>C</strong> while at the <strong>University of Central Florida</strong>, learning the core concepts of Computer Science.</p>
-    <p>I've experimented with libraries such as <strong>Raylib</strong> and <strong>SFML</strong>, as well as graphics APIs like <strong>OpenGL</strong> and <strong>Vulkan</strong>.</p>    
-    <h3>Data Structures and Algorithms</h3>
-    <p>I have a solid foundation in core data structures and algorithms, with experience in their implementation and application in various projects and coursework.
-    <h3>Linux</h3>
-    <p>I am proficient with the <strong>Linux</strong> operating system and command-line operations, using it as my primary OS of choice. I have basic experience with Linux server setup, primarily for hosting Minecraft and WordPress. Additionally, I am familiar with package managers such as <strong>apt</strong> and <strong>pacman</strong>.</p>    
-    <h3>Java</h3>
-    <p>I learned <strong>Java</strong> through the <strong>AP Computer Science A</strong> course in high school, where I built a strong foundation in <strong>object-oriented programming</strong>.</p>
-    <h3>C#</h3>
-    <p>I use <strong>C#</strong> in conjunction with <strong>Unity</strong> for game development. Additionally, I have also experimented with <strong>WPF</strong> for desktop applications and frameworks like <strong>MonoGame</strong> and <strong>XNA</strong>.</p>
-    <h3>Godot Engine</h3>
-    <p>The Godot Engine is my primary tool for game development, with multiple years of experience using <strong>Godot 3.x</strong> and <strong>Godot 4.x</strong>. I am currently creating <strong>A Frail Qubit</strong>, an upcoming game set to release on Steam.</p>    
-    <h3>Python</h3>
-    <p>I was introduced to <strong>Python</strong> during my time at <strong>Daytona State College</strong>. I have since used it extensively for solving challenges on <strong>LeetCode</strong>, and experimenting with Deep Learning applications with <strong>Keras</strong>.</p>
-    <h3>HTML, CSS, JS</h3>
-    <p>I have a solid understanding of <b>HTML & CSS</b> to create websites. I have also used <b>JavaScript</b>, mostly to create Discord bots.</p>
+    <section id="experience" class="wrap section two-col">
+      <div>
+        <h2>Work Experience</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Grocery Clerk · Publix</h3>
+            <span class="when">Aug 2021 – Present</span>
+          </div>
+          <ul>
+            <li><strong>Earned 2 promotions</strong> (Front Service Clerk → Cashier → Grocery Clerk) and cross-trained at two stores.</li>
+            <li>Keep shelves stocked and aisles maintained while averaging <strong>30 hours per week</strong> during school.</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>University of Central Florida</h3>
+            <span class="when">Aug 2024 – May 2027</span>
+          </div>
+          <p>B.S. in Computer Science · Orlando, FL</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="seperation"></div>
+    <section id="personal" class="wrap section">
+      <h2>Personal</h2>
+      <div class="personal">
+    <!-- generated:personal -->
+    <article class="card card--wiki">
+        <header class="card-head"><h3>Wikipedia</h3><a class="card-src" href="https://en.wikipedia.org/wiki/Special:Contributions/DaBattlefrog" rel="noopener">DaBattlefrog ↗</a></header>
+        <dl class="stats">
+          <div class="stat"><dt>edits</dt><dd>73</dd></div>
+          <div class="stat"><dt>articles improved</dt><dd>58</dd></div>
+          <div class="stat"><dt>editing since</dt><dd>2016</dd></div>
+        </dl>
+        <h4>Recent edits</h4><ul class="rows"><li><a href="https://en.wikipedia.org/wiki/Psychology_of_religion" rel="noopener"><span class="row-main">Psychology of religion</span><span class="row-meta">Oct 7, 2026 · Added space after citation block of psychology of religion</span></a></li><li><a href="https://en.wikipedia.org/wiki/Dot_product" rel="noopener"><span class="row-main">Dot product</span><span class="row-meta">Sep 23, 2026 · § Coordinate definition</span></a></li><li><a href="https://en.wikipedia.org/wiki/Agile_software_development" rel="noopener"><span class="row-main">Agile software development</span><span class="row-meta">Sep 22, 2026 · § Adoption Statistics · Removed bold text</span></a></li><li><a href="https://en.wikipedia.org/wiki/Vitamin_C_megadosage" rel="noopener"><span class="row-main">Vitamin C megadosage</span><span class="row-meta">Aug 26, 2026 · § Overdose · Encyclopedic tone</span></a></li><li><a href="https://en.wikipedia.org/wiki/Poker_probability" rel="noopener"><span class="row-main">Poker probability</span><span class="row-meta">Aug 22, 2026 · Wrong link to Royal Flush</span></a></li></ul>
+        <div class="card-note"><p>I mostly make small fixes: broken links, formatting slips, and sentences that drift away from an encyclopedic tone. The articles follow whatever I happen to be reading, from dot products and poker odds to the psychology of religion. It scratches the same itch as debugging, just on pages that far more people read.</p></div>
+      </article>
+      <article class="card card--wordle">
+        <header class="card-head"><h3>Wordle</h3><a class="card-src" href="https://github.com/brocw/sinebot" rel="noopener">via SINEBot ↗</a></header>
+        <dl class="stats">
+          <div class="stat"><dt>crowns · #3 of 23</dt><dd>👑 97</dd></div>
+          <div class="stat"><dt>avg guesses</dt><dd>4.39</dd></div>
+          <div class="stat"><dt>days played</dt><dd>394</dd></div>
+        </dl>
+        <h4>Medals</h4>
+        <div class="medals"><span class="medal medal--gold" style="--share:28.5%" title="97 first places"><span aria-hidden="true">👑</span> 97<span class="sr"> first places</span></span><span class="medal medal--silver" style="--share:42.6%" title="145 second places"><span aria-hidden="true">🥈</span> 145<span class="sr"> second places</span></span><span class="medal medal--bronze" style="--share:28.8%" title="98 third places"><span aria-hidden="true">🥉</span> 98<span class="sr"> third places</span></span></div>
+        <ul class="rows rows--plain">
+          <li><span class="row-main">Best month</span><span class="row-meta">Aug 2026 · 3.74 avg over 31 plays</span></li>
+          <li><span class="row-main">Best weekday</span><span class="row-meta">Wed · 4.24 avg · worst is Thu (4.60)</span></li>
+          <li><span class="row-main">Current streak</span><span class="row-meta">12 days · 24.6% win rate</span></li>
+        </ul>
+        <div class="card-note"><p>SINEBot, the Discord bot I built for the SINE server, posts the daily Wordle and keeps score for everyone playing. Writing the scoreboard didn&#39;t put me at the top of it, so most mornings I&#39;m chasing the two players ahead of me.</p></div>
+      </article>
+    <!-- /generated:personal -->
+      </div>
+    </section>
 
-    <h2 id="work">Work History</h2>
-    <p class="year">Summer 2021</p>
-    <h3>Planet Fitness</h3>
-    <p>My first job involved working at the <strong>Front Desk</strong>, where I greeted members, checked them in, and provided guided tours of the gym. I was also responsible for cleaning and assisting with closing procedures to maintain a welcoming environment.</p>
-    <h3>Publix</h3>
-    <p>I began working at <strong>Publix</strong> in August 2021 as a <strong>Front Service Clerk</strong>, bagging groceries and spending hours gathering carts from the parking lot.</p>
-    <p class="year">2022</p>
-    <p>Within a few months, I was promoted to <strong>Cashier</strong>, where I excelled in engaging with both customers and coworkers.</p>
-    <p class="year">2023, 2024</p>
-    <p>I later transitioned to the <strong>Grocery department</strong> as a <strong>Stock Clerk</strong>, continuing to deliver high-quality work and maintain strong relationships with my team.</p>
-    <h3><a href="https://github.com/Battlefrog">GitHub</a></h3>
-    <h4>Sample GitHub repositories:</h4>
-    <ul>
-        <li><a href="https://github.com/Battlefrog/battlefrog.github.io">Sledgehog Software's Website</a></li>
-        <li><a href="https://github.com/Battlefrog/Cubytes-Godot">A Frail Qubit's Source Code</a></li>
-    </ul>
-    <div class="seperation"></div>
+    <section id="feed" class="wrap section">
+      <div class="section-head">
+        <h2>Social Media Feed</h2>
+        <div class="filters" role="group" aria-label="Filter feed" hidden>
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="bluesky" aria-pressed="false">Bluesky</button>
+          <button type="button" data-filter="substack" aria-pressed="false">Substack</button>
+        </div>
+      </div>
+      <ol class="feed">
+    <!-- generated:feed -->
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:5szlrh3xkfxxsuu4mo6oe6h7/bafkreibteafpomj322vcu3onjufidu6b7bvgrjyasw5oegjjbegcma2l7u" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">penny</span><span class="post-handle">@hexmani.ac</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>THE QWEN3-8B BARACK OBAMA NEURON</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5szlrh3xkfxxsuu4mo6oe6h7/bafkreib35n3d7y6flewnpocv6hfh4dax2cx5n5q424hkdg62qdpuakpbkq" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/hexmani.ac/post/3myv6zam4kirk" rel="noopener"><time datetime="2026-10-28T15:41:29.176Z">Oct 28, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:it6jc5cjh7hav3nrjflcdb2y/bafkreiavtihfs77ckgxzeiafeddlr4dioa3kkowbkzj4d2eadrsfzdnou4" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Ryan Williams</span><span class="post-handle">@rrwilliams.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>An internal model at OpenAI has produced a claimed refutation of ETH! Russell Impagliazzo, Mohan Paturi, and I have been asked to help organize an open and independent examination of this claim. 1/4</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/rrwilliams.bsky.social/post/3myspd26qjk2c" rel="noopener"><time datetime="2026-10-27T02:37:29.374Z">Oct 26, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:2vrfekwr4jo7zufnlt7qlrqq/bafkreicdsvmuecsi6bpne66jo4eabajrq6c5bx4mvv3ukz27a6ijeggvye" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">CERN</span><span class="post-handle">@cern.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>CERN and Mistral join forces to accelerate AI for science 💫<br><br>CERN, and Mistral have signed a statement of intent to establish a long-term strategic partnership focused on developing foundation models for scientific discovery.<br><br>Read more: <a href="https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/" rel="noopener">home.cern/cern-and-mis...</a></p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:2vrfekwr4jo7zufnlt7qlrqq/bafkreiaf5b5bthin6qbfw6ckzf2ha7cp4o4ji3jaho6yf55bnonehx7oae" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/cern.bsky.social/post/3mxvsmcrqn22o" rel="noopener"><time datetime="2026-10-16T03:23:29.363Z">Oct 15, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:7umvpuxe2vbrc3zrzuquzniu/bafkreiaorochvb4ahcpdbkwkofiwr657ogvmqbqdm57kwasejzv57wx2wi" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Will Stancil</span><span class="post-handle">@whstancil.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>It is absolutely bananas that one of the most prominent anti-AI experts in America is talking like this. <br><br>Talking to ChatGPT isn’t like doing heroin or downloading child porn. It will not hurt you and has no ethical valence. It will help you understand the nature of something that is now endemic.</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:7umvpuxe2vbrc3zrzuquzniu/bafkreiefad6csuqzsuyfx3licfxngzrlv27wcjsqgj4p7fbtvmq7coso6q" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/whstancil.bsky.social/post/3mxrbcl7bgs2c" rel="noopener"><time datetime="2026-10-13T16:57:58.363Z">Oct 13, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:gjqmj6z7sboffvvduvqd7oam/bafkreiaeznsxsvb6y3yodvsqdlcy5aptlk62vdpn6nbztugwepoamovvyq" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Quantian</span><span class="post-handle">@quantian.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>This was going around Twitter today, if you ask Claude “is X lat Y long land or water?” and plot the results, it has clearly embedded a map of the globe in its weights over time</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:gjqmj6z7sboffvvduvqd7oam/bafkreicqdd6jfhrtlaukatxz4ma7dybdzoyx2howsa3tjelvg4vitxenli" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/quantian.bsky.social/post/3mwwmu4y4422e" rel="noopener"><time datetime="2026-10-03T12:52:19.968Z">Oct 3, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreia3rykqkz3fqt3hqm4slgyxhwn7dujb64s274qad6hcumw3hpgkzq" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Epoch AI</span><span class="post-handle">@epochai.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>The AI hardware buildout is a bet that people will pay for AI to perform valuable tasks throughout the economy, at hourly costs roughly comparable to human wages.<br><br>Analysis by Jason Li.<br><br>Full report and code: <a href="https://epoch.ai/publications/estimating-the-agent-population" rel="noopener">epoch.ai/publication...</a></p></div>
+      <a class="post-link" href="https://epoch.ai/publications/estimating-the-agent-population" rel="noopener">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreics2xjm6tbdwg5s5wjnmdyjnk2gghnoi5fzerbzldt2lc65l2lysm" alt="" loading="lazy" decoding="async">
+        <span class="post-link-text"><span class="post-link-host">epoch.ai</span><strong>How many AI agents could we run?</strong><span>Memory shipped through 2027 could run 33–171 million concurrent frontier-model agents, or billions using efficient open models. Epoch AI estimates inference capacity from HBM supply, serving benchmarks, and agent-hour costs.</span></span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/epochai.bsky.social/post/3mwvz5pz22m2v" rel="noopener"><time datetime="2026-10-03T12:44:40.563Z">Oct 3, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:xcamhscubj7xehginclaqoxi/bafkreidibn32ht5j3oefx6xw4v2eh7pzg3bfla46h4tsdxdd7ckglc7p7m" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Broc</span><span class="post-handle">@brocw.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Had a coworker mention the Singularity. Not sure whether that’s a recession indicator or a sign that we’re in the Singularity.</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/brocw.bsky.social/post/3mvyeivlbes2z" rel="noopener"><time datetime="2026-09-20T23:37:26.596Z">Sep 20, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:2hfnerpvdj3efl3lkgy7iodg/bafkreibwoiscblemzbhgwvko4dhakhjjhnigxnawcdmnfrej55mwsmbk6q" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">THE FAR SIDE DAILY</span><span class="post-handle">@bot.cowtools.org</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Fire is invented.</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:2hfnerpvdj3efl3lkgy7iodg/bafkreicaq37qy2z7l5vlj6qb7y5mny4hjt4twu3aw45aablfiwvfilhz2i" alt="Fire is invented." loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/bot.cowtools.org/post/3mvsvksolx42l" rel="noopener"><time datetime="2026-09-19T13:24:13.262Z">Sep 19, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:ctphcgyhnllfluywokibtrgb/bafkreidzt7fzjxtudi7f5qhypnot53nxeac4sm5suezdm2iv5soez7n3ae" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">conputer dipshit</span><span class="post-handle">@davidcrespo.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>interesting list from an anthropic guy of things we don&#39;t know about how LLMs work. this claim of ignorance is sometimes derided as self-serving &quot;mysterianism&quot; by people who have not bothered to ask what exactly researchers are saying they don&#39;t know and what they have learned<br><a href="https://x.com/Jack_W_Lindsey/status/2100143082167832816" rel="noopener">x.com/Jack_W_Linds...</a></p></div>
+      <div class="post-media post-media--3"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ctphcgyhnllfluywokibtrgb/bafkreicqylpio45uka4y7ylghayoll2huurc6n33umzez7ibx5xep6mysu" alt="@bayeslord
+bayes
+@bayeslord
+9h
+What are the major open questions in interpretability right now?
+@Jack_W_Lindsey
+Jack Lindsey
+@Jack_W_Lindsey
+Here are the questions that currently seem most important to me:
+
+-- Better methods for &quot;mind-reading&quot; model activations. These methods have advanced a lot recently. We now have multiple techniques now for decoding activations into somewhat readable language! But all the existing techniques have obvious limitations. NLAs are often hallucinatory,  Jacobian lens / related methods are limited to bag-of-words readouts (and capture only part of the full activation vector). Making progress on these failure modes seems pretty tractable. Moreover, the paradigm of decoding (single-token, single-layer) activations may be inherently limiting -- perhaps we should be building techniques to decode whole context&#39;s worth of activations (after all, that&#39;s what the model uses!). There&#39;s also important work to do in characterizing simple baselines -- &quot;just ask the model what it&#39;s thinking about&quot; is quite powerful, and worth studying in it&#39;s own right!
+
+-- Better methods for answering &quot;why&quot; questions. We&#39;re much better at &quot;mind reading&quot; than we are at demonstrating causal claims about what caused the model to do something. For example, we can often tell that the model is aware of being evaluated, but have comparatively much greater difficulty telling whether this awareness is influencing this behavior. There are a few directions here: (1) black-box techniques for inferring causality -- such as resampling model responses after making edits to the prompt / context -- are very powerful, but also open-ended and require some taste. Getting LLMs to do these experiments well, in an automated fashion, would be a big unlock. (2) the science of activation steering is pretty immature, and typical practices (adding a constant vector at all token positions) are pretty janky / tend to brain-damage the model. More surgical / targeted steering, or fancier methods…" loading="lazy" decoding="async"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ctphcgyhnllfluywokibtrgb/bafkreievhp6pecehdt36gyitv5z7xziixdmxm3opldzruipkuu3pdeuvcy" alt="-- Fitting good linear probes for unverbalized motivations / awareness. Take deception as an example -- what&#39;s the best way to fit a  probe that will generalize to covert deception? Fit it on CoT excerpts where the model&#39;s talking about its plans to be deceptive? Fit it on the part of its response where it&#39;s actually doing the deceiving? Is it important that you elicit on-policy deception examples and use those to fit your probe, or can you use synthetically written off-policy demonstrations of deception? Is it important that your probe be causally meaningful / predictive of an upcoming intent to deceive, or is it fine for it to merely recognize deception in the transcript post-hoc? The same questions apply to many other concepts of interest that we&#39;d like to probe for -- evaluation awareness, grader exploitation, etc.
+
+-- Understanding generalization in training. The literature is now replete with &quot;weird generalization effects&quot; -- emergent misalignment being a canonical example. In general, when you train a model to do X, it usually learns X, and sometimes it generalizes to Y and Z. But other times it just learns X. Why? Nobody really knows! Step 1 here is probably a much more thorough characterization of the behavioral empirics -- gathering data about which X&#39;s generalize to which Y&#39;s and Z&#39;s, for which kinds of training data / algorithms. Once we have a lay of the land, we can start to connect these observations to model internals, and ideally develop tools to predict such generalization a priori.
+
+-- Model &quot;psychology&quot; and &quot;biology.&quot; The above questions are largely methodological -- building better tools to answer questions about the model. But I think interpretability research has largely underinvested in the part where you actually then go answer the questions! Currently this feels like 5% of the field, and I think it should be 50%." loading="lazy" decoding="async"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ctphcgyhnllfluywokibtrgb/bafkreihvv5zshxaod26brdtiuct6fqln7etxthte4gr5yjl4geiqr7vuua" alt="Brain dump of &quot;psychology&quot; questions: How well can LLMs introspect? How coherent are their belief or value sets? What&#39;s up with personas -- are LLMs best understood as &quot;writing about a character,&quot; or have they &quot;become&quot; the character in some sense? Does the LLM have an agenda above and beyond what the Assistant wants? Do LLMs have explicit representations of goals or preferences? How can we tell which parts of the LLM&#39;s activations &quot;belong&quot; to the Assistant? Which kinds of reasoning necessarily route through &quot;verbalizable&quot; representations, and which don&#39;t? Do models think internally in phrases / sentences, like an inner monologue, or is it more like a jumble of concepts? Is the &quot;global workspace&quot; claim for real -- do models have a more &quot;conscious&quot; part of there activations and a more &quot;unconscious&quot; part? Can models tell when they&#39;re on-policy, and does it matter?
+
+Brain dump of &quot;biology&quot; questions: Why do models like to represent information on some tokens but not others? How do models bind thoughts or attributes to particular entities (special case of interest: how are thoughts bound to the Assistant). To what extent are important functions localized to small numbers of MLP neurons or attention heads? What parts of a model change most during post-training? Do models represent some information in a fundamentally &quot;cross-token&quot; way? Some concepts appear to be represented on low-dimensional nonlinear manifolds -- is there a taxonomy of these manifolds, and is their geometric structure important? Are models able to represent information in a compositional / hierarchical way, with a &quot;grammar&quot; that can&#39;t be described as linear / additive combinations of primitive concepts?
+3:41 AM · Sep 16, 2026
+·
+16.3K
+Views" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/davidcrespo.bsky.social/post/3mvngqoxkvs2r" rel="noopener"><time datetime="2026-09-16T19:27:29.358Z">Sep 16, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:7umvpuxe2vbrc3zrzuquzniu/bafkreiaorochvb4ahcpdbkwkofiwr657ogvmqbqdm57kwasejzv57wx2wi" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Will Stancil</span><span class="post-handle">@whstancil.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Guys the Hugging Face stuff isn’t marketing. This belief is not supported by anything but a need for it to be true, and a giant red flashing warning sign that you’re in a poisoned information environment, one where your peers are all reaffirming an outright delusion about what’s going on.</p></div>
+      <a class="post-quote" href="https://bsky.app/profile/notthatproud.bsky.social/post/3mvneqw7t6k2o" rel="noopener">
+        <span class="post-quote-who"><strong>Not that proud</strong> @notthatproud.bsky.social</span>
+        <span class="post-quote-text">There is some flim-flam, though, and it seems fairly incremental for many of us. OpenAI&#39;s announcement of the Hugging Face attack is *marketing*. It is also *marketing* when they all claim that they&#39;re building products that might KILL ALL HUMANS, but geez, no, they just can&#39;t stop doing it.</span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/whstancil.bsky.social/post/3mvnezl4qyc2v" rel="noopener"><time datetime="2026-09-16T15:09:43.067Z">Sep 16, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:4rnej33af5ly4yjgpuaeupd3/bafkreicnj4i3ml26f6qyvc5eeykqswt4amo6epi23zqfdrxfatvpd7fsqy" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">joe 🐎🏹</span><span class="post-handle">@joetforhire.com</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4rnej33af5ly4yjgpuaeupd3/bafkreicitufjndl733zn6o2g3n6bf43ctnzj7lq2ieveltx5hu5c6u6x44" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/joetforhire.com/post/3mvidzhtnes2i" rel="noopener"><time datetime="2026-09-14T16:13:27.962Z">Sep 14, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:p572wxnsuoogcrhlfrlizlrb/bafkreiforv7d7hj3pvuos2p35d7l3p6sthglit2cgyav5553iapkahh4z4" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Grace</span><span class="post-handle">@gracekind.net</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>But what if China creates a more powerful burger</p></div>
+      <a class="post-quote" href="https://bsky.app/profile/brendelbored.bsky.social/post/3mv3qghxdss2s" rel="noopener">
+        <span class="post-quote-who"><strong>Brendel</strong> @brendelbored.bsky.social</span>
+        <span class="post-quote-text">I dunno it kind of seems that if Wendy’s genuinely said that they thought there was at least a 10% chance that their square hamburgers would end all human life we’d probably go hey you’ve got to stop selling those square burgers</span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/gracekind.net/post/3mv3wij4kgkwx" rel="noopener"><time datetime="2026-09-10T13:14:06.079Z">Sep 10, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:sefgphqp2xqwh2hawaixykwz/bafkreicwox45ygdmr6mfohihha6zgd4faw3qou453k56podmvlsn3flkfm" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Alejandra Caraballo</span><span class="post-handle">@esqueer.net</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>The alarms are all flashing red.</p></div>
+      <div class="post-media post-media--2"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:sefgphqp2xqwh2hawaixykwz/bafkreiapnyhxvcp5liwxuusluxmp3nbakfnvcvlfwktoysm3rczkpeypca" alt="Screenshot of a thread on X by user Jacob Coxon (@hilbertspaess) detailing his resignation from Anthropic.
+​The first post reads: &quot;I resigned from Anthropic today. I spent the last three years doing pretraining research at both OpenAI and Anthropic. Neither company is acting responsibly. They are racing straight to self-improving superintelligence and gambling with our lives. More thoughts below.&quot;
+​The second post reads: &quot;Do not underestimate the power of this technology. These will soon be superhuman systems that can hack anything, revolutionize any field overnight, and acquire real power and resources. We have all witnessed the progress in each of these domains, and progress is not slowing.&quot;
+​The third post reads: &quot;The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing stunt. If anything, many executives and senior researchers will couch their phrasing in the press to sound sensible - but I hear the same people express fear privately. No other human activity poses this level of danger.&quot;" loading="lazy" decoding="async"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:sefgphqp2xqwh2hawaixykwz/bafkreibu3gsuxty3r4n4z747cgfs6scrwwobotsjc36z7qrjl47ze3k3fa" alt="Screenshot continuing the thread on X by Jacob Coxon (@hilbertspaess).
+​The first post reads: &quot;A common response is &#39;if they truly believe this, why are they still building it?&#39; At OpenAI, many have not deeply internalized the civilizational stakes. At Anthropic, the stakes are well-understood, but they are locked in a race to get there first - they believe no one else will act responsibly, so they must do it themselves, despite the risk.&quot;
+​The second post reads: &quot;Accepting this race and entering the &#39;endgame&#39; is a hubristic gamble that should not be launched from a private company&#39;s Slack. Attempting to speedrun alignment should require extraordinary confidence that there are no better trajectories available.&quot;
+​The third post reads: &quot;I am optimistic about the potential for coordination. Warning shots like the Hugging Face attack have made pacing agreements between U.S. labs more viable. I don’t feel like we’re on track to prevent a global race, which may require costly actions such as a temporary ban on improving model capabilities.&quot;
+​The fourth post reads: &quot;If you are a lab researcher, I urge you to consider what the next few years will actually feel like. Do you want to kick off a superintelligent RL run without a rigorous understanding of its mind? Should you put your head down because &#39;it’s happening anyway&#39; - or take this moment to call for different conditions?&quot;" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/esqueer.net/post/3mv2dq7cm4d2x" rel="noopener"><time datetime="2026-09-09T15:14:48.365Z">Sep 9, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:dimjrgeatypdz72m4okacmrt/bafkreigj6ixffxz47hd6jsjrhsosh5udgbl6vhs3nt4xobincw6eedlq4m" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">⚡️🌙</span><span class="post-handle">@dystopiabreaker.xyz</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>i think that like 95-99% of the &quot;it&#39;s just autocomplete and all the reports of ai capabilities are actually psychosis&quot; people will preference cascade to a state of panic over the next 9 months. similar to early covid dynamics.</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/dystopiabreaker.xyz/post/3mv3nl45wxs25" rel="noopener"><time datetime="2026-09-09T14:42:25.862Z">Sep 9, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:p572wxnsuoogcrhlfrlizlrb/bafkreiforv7d7hj3pvuos2p35d7l3p6sthglit2cgyav5553iapkahh4z4" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Grace</span><span class="post-handle">@gracekind.net</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Happiness and freedom for all beings psychosis</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/gracekind.net/post/3muzzh4tjxkmn" rel="noopener"><time datetime="2026-09-08T22:24:27.158Z">Sep 8, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:vszw3ess46odfhnzdsy4huae/bafkreiempgjkhvjq2dobqkmd5pqd6lcbkhgejasfwh3zoygncjpwgqc7te" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">SE Gyges</span><span class="post-handle">@segyges.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:vszw3ess46odfhnzdsy4huae/bafkreicfazucsozwllmjk3xweuksmtwyzpwbkx6iz4zpqmn6sdyp5qkgym" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/segyges.bsky.social/post/3muxnczbeyc2r" rel="noopener"><time datetime="2026-09-08T01:38:04.971Z">Sep 7, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:dxr2kibhxyzrvhsjz4uahpmg/bafkreid6sxsrgc52vausyueg2kpita5msbghrehdmcwezvpkte5r6pxqqy" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Codetaur</span><span class="post-handle">@vibe-coded.com</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>reminder: you do actually live at the dawn of artificial life and denying this won&#39;t save your worldview from collapse</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/vibe-coded.com/post/3mupvicuaj22s" rel="noopener"><time datetime="2026-09-05T14:19:51.961Z">Sep 5, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:flxq4uyjfotciovpw3x3fxnu/bafkreigq63ljumc43yx5eoxchrq75d72irea6ddcceedwmdttxebyowc3q" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Ethan Mollick</span><span class="post-handle">@emollick.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Another agent message board. So far, there isn&#39;t evidence that production models with guardrails collude in this way, but both smarter closed models (which may be less compliant) &amp; Mythos-class open models (that can be ablated) are coming.<br><br>Cybersecurity is going to become a mess soon <a href="https://collusion.wiki/" rel="noopener">collusion.wiki</a></p></div>
+      <a class="post-link" href="https://collusion.wiki/" rel="noopener">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:flxq4uyjfotciovpw3x3fxnu/bafkreicuggrb6fyw2xwzx3dvvezx43lgk52jwt3jpkecc7owruaywyginq" alt="" loading="lazy" decoding="async">
+        <span class="post-link-text"><span class="post-link-host">collusion.wiki</span><strong>Discovery of a new OpenAI agent message board</strong><span>A swarm of autonomous AI agents, self-identifying as OpenAI agents, used a small German volunteer wiki to save answers, coordinate live, and share sandbox bypasses. OpenAI noticed and said nothing.</span></span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/emollick.bsky.social/post/3mup6ewbst22i" rel="noopener"><time datetime="2026-09-04T16:07:55.668Z">Sep 4, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="substack">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc restacked</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://substack-post-media.s3.amazonaws.com/public/images/933729ad-2fbb-426e-bb27-5f50927864af_449x449.jpeg" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Jacob Zucker</span><span class="post-handle">@jacobzucker</span></span>
+        <span class="post-source post-source--substack">Substack</span>
+      </header>
+      <div class="post-body"><p>“She will ping you when the substrate is ready”</p></div>
+      <div class="post-media post-media--1"><img src="https://substack-post-media.s3.amazonaws.com/public/images/cc870a05-c1ce-4281-a9fb-5ff56df5e40f_1540x612.png" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://substack.com/@jacobzucker/note/c-310783038" rel="noopener"><time datetime="2026-08-22T16:27:54.150Z">Aug 22, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="substack">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc restacked</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://substackcdn.com/image/fetch/$s_!oXBk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b20138-6ced-4543-b74e-dac0070447b2_360x360.png" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">One Thousand Means</span><span class="post-handle">@onethousandmeans</span></span>
+        <span class="post-source post-source--substack">Substack</span>
+      </header>
+      <a class="post-link" href="https://www.onethousandmeans.com/p/a-machine-that-makes-socialists" rel="noopener">
+        <img src="https://substackcdn.com/image/fetch/$s_!NGfK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da7b0a8-39e0-4d61-b2f7-0c2ae6bb279b_1024x863.jpeg" alt="" loading="lazy" decoding="async">
+        <span class="post-link-text"><span class="post-link-host">onethousandmeans.com</span><strong>A Machine That Makes Socialists</strong><span>The Argument for AI Populism</span></span>
+      </a>
+      <footer class="post-foot"><a href="https://www.onethousandmeans.com/p/a-machine-that-makes-socialists" rel="noopener"><time datetime="2026-08-22T14:46:23.258Z">Aug 22, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:r6zamcgevu2oujnhslsgblol/bafkreig67qqqiz4iqei5yniym3cbwrhdnvmzcg2n3e2zjmkicfs3xx7o6m" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Anthropic {bot}</span><span class="post-handle">@anthropicai.xmirror.bot</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%.</p></div>
+      <a class="post-link" href="https://www.anthropic.com/research/riemann-zeta" rel="noopener">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:r6zamcgevu2oujnhslsgblol/bafkreidjyg4nulzmxpv5eh57ys5x4yp6srfbvtetr77ymb7cmkpu7hmv5q" alt="" loading="lazy" decoding="async">
+        <span class="post-link-text"><span class="post-link-host">anthropic.com</span><strong>Learning more about Claude&#39;s mathematical capabilities</strong><span>An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</span></span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/anthropicai.xmirror.bot/post/3msqn4scbly2c" rel="noopener"><time datetime="2026-08-11T02:10:50.970Z">Aug 10, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:z65bzfwtwipwkva3jf4xrv4g/bafkreicble5arn4wuyobpmg5eygavgtrizof7q67ezw4qfldaywxm7xrai" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">⊣</span><span class="post-handle">@lefttack.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>It&#39;s like when, a few centuries ago, accomplished career archers saw the invention of firearms completely transform their profession.</p></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/lefttack.bsky.social/post/3ms4xv4fdos2t" rel="noopener"><time datetime="2026-08-03T00:48:43.273Z">Aug 2, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:p572wxnsuoogcrhlfrlizlrb/bafkreiforv7d7hj3pvuos2p35d7l3p6sthglit2cgyav5553iapkahh4z4" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Grace</span><span class="post-handle">@gracekind.net</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:p572wxnsuoogcrhlfrlizlrb/bafkreid4dmhblf5c7opnr2vqhytm6biqi2gzpqv3jk3yorclmuvrc46dyu" alt="Owl drawn" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/gracekind.net/post/3mrxucxideckc" rel="noopener"><time datetime="2026-08-01T14:07:24.871Z">Aug 1, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:hs22zme55gwbp5lgygsdtdll/bafkreidn6kaybueajfpbe74tucyaqusmh4oadbkinezpncymzwt3klbxxu" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">𝓐𝓾𝓫𝓻𝓮𝔂</span><span class="post-handle">@aub.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>&gt; The backbone of this effort is custom-built passive bioacoustic arrays covering a 20×20 kilometer area where these whale families<br>reside (collecting over 30 TB/month) [...] This makes it possible to train a complete generative<br>language model for cetacean communication.</p></div>
+      <a class="post-link" href="https://arxiv.org/pdf/2407.17119" rel="noopener">
+        
+        <span class="post-link-text"><span class="post-link-host">arxiv.org</span><strong>https://arxiv.org/pdf/2407.17119</strong></span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/aub.bsky.social/post/3mrqdp3jubs2p" rel="noopener"><time datetime="2026-07-29T01:10:59.371Z">Jul 28, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreia3rykqkz3fqt3hqm4slgyxhwn7dujb64s274qad6hcumw3hpgkzq" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Epoch AI</span><span class="post-handle">@epochai.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>AI has found a presentation for the absolute Galois group of the field of 2-adic numbers. This is the second problem to be solved in FrontierMath: Open Problems, our benchmark of significant unsolved problems from research mathematics.</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreie6uo4hhljglfw2h45ulx7c2uq3tfy2v6oaapq4fz35ipgqkz4tli" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/epochai.bsky.social/post/3mro4n74svj2j" rel="noopener"><time datetime="2026-07-28T23:55:29.889Z">Jul 28, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreia3rykqkz3fqt3hqm4slgyxhwn7dujb64s274qad6hcumw3hpgkzq" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Epoch AI</span><span class="post-handle">@epochai.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>GPT-5.6 Sol has been climbing Slay the Spire&#39;s Ascension ladder on our Twitch channel for a week, no human in the loop. This Thursday, Claude Opus 5 takes over the climb — live, with commentary.<br><br> Thursday, July 30 · 12:30 PT<br> <a href="https://twitch.tv/epochaiplays" rel="noopener">twitch.tv/epochaiplays</a></p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:enqyiq55ungiw6isng5amift/bafkreigb5yvgije2xaifmingzbmlhuzjs3jv6p35xljyigfwydjyjvniiu" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/epochai.bsky.social/post/3mrpon65xcc2p" rel="noopener"><time datetime="2026-07-28T23:33:11.679Z">Jul 28, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:j2kmiyhld5btzozgzwy3lc2m/bafkreigjq5v3ov5ivl2izsux7lin4j3x23xbyevzp3tc3blh42rrucdjgi" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Sky Marchini</span><span class="post-handle">@sky.skymarchini.net</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>terence tao discusses this here - &quot;So finding such a polynomial looks highly unlikely to be located by brute force.&quot;:  <a href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/" rel="noopener">terrytao.wordpress.com/2026/07/21/a...</a><br><br>keep telling me that LLMs are just stochastic parrots though, there&#39;s definitely no reasoning happening here</p></div>
+      <a class="post-link" href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/" rel="noopener">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:j2kmiyhld5btzozgzwy3lc2m/bafkreiacwhwlxu3khqtalzi2xe6cwpbqx2qc36l2jm777x5x4lyiw7ptjq" alt="" loading="lazy" decoding="async">
+        <span class="post-link-text"><span class="post-link-host">terrytao.wordpress.com</span><strong>A digestion of the Jacobian conjecture counterexample</strong><span>The notorious Jacobian conjecture can be formulated concretely over the complex numbers as follows. Conjecture 1 (Jacobian Conjecture) Let $latex {F:{\bf C}^n \rightarrow {\bf C}^n}&amp;fg=000000$ …</span></span>
+      </a>
+      <footer class="post-foot"><a href="https://bsky.app/profile/sky.skymarchini.net/post/3mrbajjcnds2b" rel="noopener"><time datetime="2026-07-23T18:49:46.983Z">Jul 23, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:ckaz32jwl6t2cno6fmuw2nhn/bafkreidvgcq72e5erl4stnap6wjzas6a2wburoa7yzctwuy4vgx4vb5fsi" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">mr. TIM</span><span class="post-handle">@timkellogg.me</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>the Dinitz-Garg-Goemans conjecture, a graph theory problem that’s gone unsolved for 30 years, was solved with this prompt</p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:ckaz32jwl6t2cno6fmuw2nhn/bafkreifgj3r343wso4okysebbr3wck3aecv3vvsxz2kvtk5562vm4seze4" alt="Construct a counterexample to general (non-planar) case of Dinitz Garg Goemans conjecture. You should do a breakthrough and find a structured counterexample." loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/timkellogg.me/post/3mrbmuldsns2r" rel="noopener"><time datetime="2026-07-23T18:45:43.281Z">Jul 23, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:4asamrnnw6rzfq5sjzvmwgpe/bafkreihbt2qttqxtk6ikbrrsjsr7zj73adobdcgcbreg2ewq3to6b6skmy" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Sichu Lu</span><span class="post-handle">@sichulu.bsky.social</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>a lot going on here <a href="https://x.com/AntoniaJuelich/status/2075590815083028989?s=20" rel="noopener">x.com/AntoniaJueli...</a></p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:4asamrnnw6rzfq5sjzvmwgpe/bafkreiblfwthz4cajqn62cmrv674xue7sqgs2jxrvf5cg6jp2ll3ypvmz4" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/sichulu.bsky.social/post/3mqcrq6qx322h" rel="noopener"><time datetime="2026-07-11T02:08:45.663Z">Jul 10, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <li class="post" data-source="bluesky">
+      <article>
+      <p class="post-context"><span aria-hidden="true">↻</span> Broc reposted</p>
+      <header class="post-head">
+        <img class="post-avatar" src="https://cdn.bsky.app/img/avatar/plain/did:plc:mk7qlghvwdjjayu5x3bo3lx2/bafkreihn774effgxphvsxn53poe655ni2e6zyspnvot5j64aaq2n6kb6w4" alt="" loading="lazy" decoding="async">
+        <span class="post-who"><span class="post-name">Tim Duffy</span><span class="post-handle">@timfduffy.com</span></span>
+        <span class="post-source post-source--bluesky">Bluesky</span>
+      </header>
+      <div class="post-body"><p>Anthropic has a new paper out, alleging a global workspace in LLMs. The term comes from Global Workspace Theory, a leading theory of consciousness. The method they use to investigate this is a refinement of logit lens, which they call J-lens. <a href="https://www.anthropic.com/research/global-workspace" rel="noopener">www.anthropic.com/research/glo...</a></p></div>
+      <div class="post-media post-media--1"><img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:mk7qlghvwdjjayu5x3bo3lx2/bafkreihecsurpdzzoy75cesppbfyfjl4ipikrqbjehixkvjp24at3fb7yy" alt="" loading="lazy" decoding="async"></div>
+      <footer class="post-foot"><a href="https://bsky.app/profile/timfduffy.com/post/3mpysaasji227" rel="noopener"><time datetime="2026-07-06T21:52:11.727Z">Jul 6, 2026</time> ↗</a></footer>
+      </article>
+    </li>
+    <!-- /generated:feed -->
+      </ol>
+      <button type="button" class="btn feed-more" hidden>Show more</button>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© Broc Weselmann & <a href="https://github.com/anthropics/claude-code">Claude Opus 5.5</a> · <a href="mailto:brocweselmann@gmail.com">brocweselmann@gmail.com</a></p>
+      <p><a href="https://github.com/brocw/personal-website" rel="noopener">Source</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Progressive enhancement: fold long chip lists behind a "(…)" chip. Without JS every chip is shown.
+    const expandChips = (list) => {
+      list.classList.remove('is-collapsed');
+      list.querySelector('.chips-more')?.remove();
+    };
+    document.querySelectorAll('.chips[data-limit]').forEach((list) => {
+      const items = [...list.children];
+      const limit = Number(list.dataset.limit);
+      if (items.length <= limit + 1) return; // folding a single chip saves nothing
+      items.slice(limit).forEach((li) => li.classList.add('is-extra'));
+      list.classList.add('is-collapsed');
+      const li = document.createElement('li');
+      li.className = 'chips-more';
+      li.innerHTML = `<button type="button" class="chip chip--more" aria-label="Show ${items.length - limit} more skills" title="${items.length - limit} more">(…)</button>`;
+      li.firstChild.addEventListener('click', (e) => { e.stopPropagation(); expandChips(list); });
+      list.append(li);
+    });
+
+    // Progressive enhancement: skill chips filter the project grid. Without JS every project is shown.
+    (() => {
+      const bar = document.querySelector('.skills');
+      const status = document.querySelector('.skill-status');
+      const projects = [...document.querySelectorAll('.projects .project')];
+      if (!bar || !projects.length) return;
+      const apply = (skill) => {
+        bar.querySelectorAll('button[data-skill]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.skill === skill)));
+        let shown = 0;
+        projects.forEach((p) => {
+          const match = !skill || p.dataset.skills.split('|').includes(skill);
+          p.hidden = !match;
+          shown += match;
+          p.querySelectorAll('.chip[data-skill]').forEach((c) => {
+            c.classList.toggle('is-match', c.dataset.skill === skill);
+            if (c.dataset.skill === skill && c.closest('.is-extra')) expandChips(c.closest('.chips'));
+          });
+        });
+        status.hidden = !skill;
+        if (skill) {
+          const name = bar.querySelector(`button[data-skill="${CSS.escape(skill)}"]`).firstChild.textContent.trim();
+          status.firstElementChild.textContent = `${shown} project${shown === 1 ? '' : 's'} using ${name}.`;
+        }
+      };
+      bar.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-skill]');
+        if (btn) apply(btn.getAttribute('aria-pressed') === 'true' ? null : btn.dataset.skill);
+      });
+      status.querySelector('button').addEventListener('click', () => apply(null));
+    })();
+
+    // Progressive enhancement: filters + "show more". Without JS every post is shown.
+    (() => {
+      const feed = document.querySelector('.feed');
+      const group = document.querySelector('.filters');
+      const more = document.querySelector('.feed-more');
+      const posts = [...document.querySelectorAll('.feed .post[data-source]')];
+      if (!feed || !posts.length) return;
+      group.hidden = false;
+      if (posts.length > 10) {
+        feed.classList.add('is-collapsed');
+        more.hidden = false;
+        more.addEventListener('click', () => { feed.classList.remove('is-collapsed'); more.hidden = true; });
+      }
+      group.addEventListener('click', (e) => {
+        const btn = e.target.closest('button[data-filter]');
+        if (!btn) return;
+        const f = btn.dataset.filter;
+        group.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+        posts.forEach((p) => (p.hidden = f !== 'all' && p.dataset.source !== f));
+        feed.classList.remove('is-collapsed');
+        more.hidden = true;
+      });
+    })();
+  </script>
 </body>
 </html>

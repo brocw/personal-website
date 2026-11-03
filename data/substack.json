@@ -1,0 +1,59 @@
+[
+  {
+    "source": "substack",
+    "kind": "repost",
+    "date": "2026-08-22T16:27:54.150Z",
+    "postedAt": "2026-08-08T18:41:07.495Z",
+    "url": "https://substack.com/@jacobzucker/note/c-310783038",
+    "author": {
+      "name": "Jacob Zucker",
+      "handle": "jacobzucker",
+      "avatar": "https://substack-post-media.s3.amazonaws.com/public/images/933729ad-2fbb-426e-bb27-5f50927864af_449x449.jpeg"
+    },
+    "html": "<p>“She will ping you when the substrate is ready”</p>",
+    "images": [
+      {
+        "src": "https://substack-post-media.s3.amazonaws.com/public/images/cc870a05-c1ce-4281-a9fb-5ff56df5e40f_1540x612.png",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "source": "substack",
+    "kind": "repost",
+    "date": "2026-08-22T14:46:23.258Z",
+    "postedAt": "2026-08-20T16:27:39.961Z",
+    "url": "https://www.onethousandmeans.com/p/a-machine-that-makes-socialists",
+    "author": {
+      "name": "One Thousand Means",
+      "handle": "onethousandmeans",
+      "avatar": "https://substackcdn.com/image/fetch/$s_!oXBk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b20138-6ced-4543-b74e-dac0070447b2_360x360.png"
+    },
+    "html": "",
+    "link": {
+      "url": "https://www.onethousandmeans.com/p/a-machine-that-makes-socialists",
+      "title": "A Machine That Makes Socialists",
+      "description": "The Argument for AI Populism",
+      "image": "https://substackcdn.com/image/fetch/$s_!NGfK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da7b0a8-39e0-4d61-b2f7-0c2ae6bb279b_1024x863.jpeg"
+    }
+  },
+  {
+    "source": "substack",
+    "kind": "post",
+    "date": "2026-03-11T18:05:54.224Z",
+    "postedAt": "2026-03-11T18:05:54.224Z",
+    "url": "https://substack.com/@brocw/note/c-226361856",
+    "author": {
+      "name": "Broc",
+      "handle": "brocw",
+      "avatar": "https://substack-post-media.s3.amazonaws.com/public/images/1bdec3a0-8585-472d-bace-30a37c5c1143_459x459.png"
+    },
+    "html": "<p>Fantastic analysis. I think there is quite a lot of room for collective bargaining with the AI researchers (including datacenter operators and other workers maintaining uptime of frontier models) *across* all major American labs, with concrete demands. This is something that has proven to be possible with Starbucks Workers United. Ultimately, the Left needs to demand the socialization of the surplus profits by AI companies.</p>",
+    "link": {
+      "url": "https://www.generalobligations.com/p/some-disparate-notes-on-ai-and-the",
+      "title": "Some Disparate Notes on AI and the Left",
+      "description": "general obligations",
+      "image": "https://substackcdn.com/image/fetch/$s_!nu6E!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34b5b316-2f07-4282-ad6f-53c3a9f1263a_997x589.png"
+    }
+  }
+]
