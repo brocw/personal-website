@@ -1,0 +1,99 @@
+{
+  "_comment": "Skill groups shown above the project grid, in display order. A chip filters the projects whose 'tech' (content/projects.json) or GitHub language matches its name, ignoring case. Skills that no project uses are hidden until one does.",
+  "groups": [
+    {
+      "name": "Languages",
+      "skills": [
+        "Python",
+        "Go",
+        "JavaScript",
+        "TypeScript",
+        "Rust",
+        "C",
+        "C++",
+        "GDScript",
+        "Paradox Script"
+      ]
+    },
+    {
+      "name": "AI & ML",
+      "skills": [
+        "Multi-agent LLM pipelines",
+        "Prompt engineering",
+        "PyTorch",
+        "Transformers",
+        "ROCm",
+        "Generative AI",
+        "Ollama",
+        "OpenRouter",
+        "Hugging Face",
+        "GGUF",
+        "NumPy",
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "name": "Web & Apps",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "Svelte",
+        "SvelteKit",
+        "Tauri",
+        "Vite",
+        "Tailwind CSS",
+        "discord.js",
+        "Chart.js",
+        "Server-Sent Events",
+        "JWT",
+        "bcrypt",
+        "Google Maps API",
+        "SendGrid",
+        "GTK4",
+        "PyGObject",
+        "D-Bus"
+      ]
+    },
+    {
+      "name": "Data & Optimization",
+      "skills": [
+        "SQLite",
+        "MongoDB",
+        "MySQL",
+        "pandas",
+        "SciPy",
+        "OR-Tools",
+        "Shapely",
+        "Streamlit",
+        "Plotly",
+        "Folium"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "skills": [
+        "Git",
+        "GitHub Actions",
+        "GitLab",
+        "DigitalOcean",
+        "PM2",
+        "ESLint",
+        "Vitest",
+        "GNU/Linux"
+      ]
+    },
+    {
+      "name": "Games & Teams",
+      "skills": [
+        "Godot Engine",
+        "Game design",
+        "Pixel art",
+        "Steam",
+        "Project management",
+        "Technical writing"
+      ]
+    }
+  ]
+}

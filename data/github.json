@@ -1,0 +1,122 @@
+[
+  {
+    "name": "sinebot",
+    "fullName": "brocw/sinebot",
+    "owner": "brocw",
+    "description": "SINEBot is a Discord bot that handles daily game notifications, scoring, and statistics.",
+    "url": "https://github.com/brocw/sinebot",
+    "stars": 0,
+    "language": {
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    "image": "https://opengraph.githubassets.com/2114b426b847f31699301dbdacca915d46018d1ada53b053357b447d47a8551f/brocw/sinebot",
+    "pinned": true,
+    "readmeImage": ""
+  },
+  {
+    "name": "Campus-Time-Machine",
+    "fullName": "Ywrd10/Campus-Time-Machine",
+    "owner": "Ywrd10",
+    "description": "Reimagine UCF through AI-generated video. A campus-map studio powered by Kandinsky 6 Lite on AMD Radeon Cloud with ROCm, with a shared Journey Wall archived on Hugging Face. Built for Knight Hacks IX.",
+    "url": "https://github.com/Ywrd10/Campus-Time-Machine",
+    "stars": 3,
+    "language": {
+      "name": "TypeScript",
+      "color": "#3178c6"
+    },
+    "image": "https://opengraph.githubassets.com/732f33070604d0a5e6bd4d3338d2d9a41f4a57ef317048db5b1f24f5dcb72fe2/Ywrd10/Campus-Time-Machine",
+    "pinned": true,
+    "readmeImage": "https://raw.githubusercontent.com/Ywrd10/Campus-Time-Machine/main/docs/assets/campus-studio.png"
+  },
+  {
+    "name": "encyclopedia-ai",
+    "fullName": "brocw/encyclopedia-ai",
+    "owner": "brocw",
+    "description": "Experiment to create an encyclopedia completely written by AI agents",
+    "url": "https://github.com/brocw/encyclopedia-ai",
+    "stars": 0,
+    "language": {
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    "image": "https://opengraph.githubassets.com/b089336cab5e2fe002d275684d23ea0dc0142eebe6ac9afb6a4f5f798e68180c/brocw/encyclopedia-ai",
+    "pinned": true,
+    "readmeImage": "https://raw.githubusercontent.com/brocw/encyclopedia-ai/main/screenshot.png"
+  },
+  {
+    "name": "gpt-1",
+    "fullName": "brocw/gpt-1",
+    "owner": "brocw",
+    "description": "Implementation of a GPT-1 like LLM from Karpathy",
+    "url": "https://github.com/brocw/gpt-1",
+    "stars": 0,
+    "language": {
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    "image": "https://opengraph.githubassets.com/cada4572b5d9924ef6494f6a13d611f91f17b455f62db0522416e6f42d8c0169/brocw/gpt-1",
+    "pinned": true,
+    "readmeImage": "https://raw.githubusercontent.com/brocw/gpt-1/main/screenshot.png"
+  },
+  {
+    "name": "broc-app",
+    "fullName": "brocw/broc-app",
+    "owner": "brocw",
+    "description": "Personalized Windows and Linux desktop app",
+    "url": "https://github.com/brocw/broc-app",
+    "stars": 0,
+    "language": {
+      "name": "Svelte",
+      "color": "#ff3e00"
+    },
+    "image": "https://opengraph.githubassets.com/4d8b44082ee50299d225033324dce5a4a9d1b97ac78c3a0d1249e39c79229044/brocw/broc-app",
+    "pinned": true,
+    "readmeImage": "https://raw.githubusercontent.com/brocw/broc-app/main/screenshot.png"
+  },
+  {
+    "name": "broc-launch",
+    "fullName": "brocw/broc-launch",
+    "owner": "brocw",
+    "description": "A GTK4 application to quicken web search and AI questions.",
+    "url": "https://github.com/brocw/broc-launch",
+    "stars": 0,
+    "language": {
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    "image": "https://opengraph.githubassets.com/ce843e06e3ca56afdde7e1ccf6414fc610679d5d53fc46e2c4f0a60403231700/brocw/broc-launch",
+    "pinned": true,
+    "readmeImage": "https://raw.githubusercontent.com/brocw/broc-launch/main/screenshot.png"
+  },
+  {
+    "name": "mern-travel-agent",
+    "fullName": "brocw/mern-travel-agent",
+    "owner": "brocw",
+    "description": "",
+    "url": "https://github.com/brocw/mern-travel-agent",
+    "stars": 1,
+    "language": {
+      "name": "Dart",
+      "color": "#00B4AB"
+    },
+    "image": "https://opengraph.githubassets.com/fbebe87c3ed05359124920a013b69493ccc2ce8cad618467aab57a6e5b39509a/brocw/mern-travel-agent",
+    "pinned": false,
+    "readmeImage": ""
+  },
+  {
+    "name": "knight_hacks_viii",
+    "fullName": "brocw/knight_hacks_viii",
+    "owner": "brocw",
+    "description": "NextEra Energy",
+    "url": "https://github.com/brocw/knight_hacks_viii",
+    "stars": 1,
+    "language": {
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    "image": "https://opengraph.githubassets.com/3b3814126330c4a6a0599c77b5989e746ccd8833f1d1964ec66be59f416c79e4/brocw/knight_hacks_viii",
+    "pinned": false,
+    "readmeImage": ""
+  }
+]

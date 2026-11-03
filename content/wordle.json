@@ -1,0 +1,16 @@
+{
+  "_comment": "Snapshot of Broc's SINEBot Wordle stats (/stats in Discord). Update by hand, then run tools/update.mjs.",
+  "asOf": "2026-11-02",
+  "crowns": 97,
+  "rank": 3,
+  "players": 23,
+  "daysPlayed": 394,
+  "currentStreak": 12,
+  "guesses": { "avg": 4.39, "median": 4.0, "stdev": 1.02, "failuresExcluded": 25 },
+  "winRate": 24.6,
+  "medals": { "gold": 97, "silver": 145, "bronze": 98 },
+  "bestDay": { "day": "Wed", "avg": 4.24, "plays": 56 },
+  "worstDay": { "day": "Thu", "avg": 4.6, "plays": 57 },
+  "bestMonth": { "month": "Aug 2026", "avg": 3.74, "plays": 31 },
+  "worstMonth": { "month": "Apr 2026", "avg": 4.88, "plays": 29 }
+}

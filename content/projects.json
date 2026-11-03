@@ -1,0 +1,176 @@
+{
+  "_comment": "Projects section, in display order. Mirrors the résumé. 'repo' (owner/name) links a card to GitHub so it picks up the repo image, language & stars; pinned repos not listed here are appended automatically after these. 'bullets' may contain <strong>. 'image' is an optional local path that overrides the first image in the repo README. 'tech' entries matching a skill in content/skills.json make the card filterable by that skill.",
+  "projects": [
+    {
+      "name": "Encyclopedia AI",
+      "url": "https://github.com/brocw/encyclopedia-ai",
+      "repo": "brocw/encyclopedia-ai",
+      "tech": [
+        "Go",
+        "Multi-agent LLM pipelines",
+        "Prompt engineering",
+        "Ollama",
+        "OpenRouter",
+        "SQLite",
+        "Server-Sent Events",
+        "JavaScript",
+        "GitHub Actions"
+      ],
+      "bullets": [
+        "Automated article writing with a <strong>9-stage multi-agent Go pipeline</strong> (intake, outline, section drafting, evaluate, compare, plan, revise, metadata) that critiques and revises its own output.",
+        "Kept long reasoning runs reliable with a provider layer for Ollama and OpenAI-compatible APIs, structured-output repair and retries, and <strong>resumable SQLite-backed jobs</strong> streamed over SSE."
+      ]
+    },
+    {
+      "name": "SINEBot",
+      "url": "https://github.com/brocw/sinebot",
+      "repo": "brocw/sinebot",
+      "image": "assets/projects/sinebot.png",
+      "tech": [
+        "JavaScript",
+        "Node.js",
+        "discord.js",
+        "Chart.js",
+        "SQLite",
+        "GitHub Actions",
+        "PM2",
+        "DigitalOcean"
+      ],
+      "bullets": [
+        "Discord bot for UCF's Society of Innovation and Neurodiversity in Engineering, used daily by <strong>about a dozen members on each of 2 servers</strong>, built around a plugin registry of daily games with Chart.js analytics.",
+        "<strong>Increased engagement and retention</strong> by shipping leaderboards, trend graphs, and distributions based on user feedback."
+      ]
+    },
+    {
+      "name": "TripTastic",
+      "url": "https://github.com/brocw/mern-travel-agent",
+      "repo": "brocw/mern-travel-agent",
+      "image": "assets/projects/triptastic.jpg",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Express",
+        "MongoDB",
+        "Node.js",
+        "JWT",
+        "bcrypt",
+        "Vite",
+        "Google Maps API",
+        "SendGrid",
+        "GitHub Actions",
+        "DigitalOcean",
+        "ESLint"
+      ],
+      "bullets": [
+        "Ended manual FTP re-uploads for a <strong>team of 6</strong> by automating DigitalOcean deploys with a <strong>GitHub Actions CI/CD pipeline</strong> and PR integration tests.",
+        "Set up the repo, MongoDB database, JWT auth, and bcrypt password hashing for a React/TypeScript web app."
+      ]
+    },
+    {
+      "name": "Drone Route Optimizer",
+      "url": "https://github.com/brocw/knight_hacks_viii",
+      "repo": "brocw/knight_hacks_viii",
+      "image": "assets/projects/drone-route-optimizer.jpg",
+      "tech": [
+        "Python",
+        "OR-Tools",
+        "NumPy",
+        "pandas",
+        "SciPy",
+        "Shapely",
+        "Streamlit",
+        "Folium",
+        "Plotly"
+      ],
+      "bullets": [
+        "<strong>Routed a drone across a graph of 2,500+ nodes</strong> for NextEra Energy's KnightHacks VIII challenge, designing the routing algorithm with VRP heuristics and OR-Tools."
+      ]
+    },
+    {
+      "name": "GPT-1 Language Model",
+      "url": "https://github.com/brocw/gpt-1",
+      "repo": "brocw/gpt-1",
+      "tech": [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "ROCm",
+        "NumPy",
+        "GGUF"
+      ],
+      "bullets": [
+        "Generated Shakespeare-style prose over a 1,000-token context window by pre-training a <strong>GPT-1-like transformer in PyTorch</strong> with scaled residual projections and checkpointing."
+      ]
+    },
+    {
+      "name": "A Frail Qubit",
+      "url": "https://store.steampowered.com/app/1697070/A_Frail_Qubit/",
+      "image": "assets/projects/a-frail-qubit.jpg",
+      "tech": [
+        "GDScript",
+        "Godot Engine",
+        "Game design",
+        "Pixel art",
+        "Steam"
+      ],
+      "bullets": [
+        "A story-based puzzle game with <strong>over 60 handcrafted levels</strong>. I built all the mechanics, narrative, and pixel art solo in Godot."
+      ]
+    },
+    {
+      "name": "The New Order: Last Days of Europe",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2438003901",
+      "image": "assets/projects/tno.jpg",
+      "tech": [
+        "Paradox Script",
+        "Project management",
+        "Technical writing",
+        "Git",
+        "GitLab"
+      ],
+      "bullets": [
+        "<strong>Coordinated a fully remote team of 50+ volunteers</strong> behind a total-overhaul mod with <strong>500,000+ players</strong>.",
+        "<strong>Onboarded over a dozen volunteers</strong> with the Git guide I wrote, while implementing event chains, GUIs, and content."
+      ]
+    },
+    {
+      "name": "Campus Time Machine",
+      "repo": "Ywrd10/Campus-Time-Machine",
+      "tech": [
+        "TypeScript",
+        "React",
+        "Python",
+        "PyTorch",
+        "ROCm",
+        "Generative AI",
+        "Hugging Face",
+        "Tailwind CSS",
+        "Vite",
+        "Vitest"
+      ]
+    },
+    {
+      "name": "broc-app",
+      "repo": "brocw/broc-app",
+      "tech": [
+        "Svelte",
+        "SvelteKit",
+        "TypeScript",
+        "Tauri",
+        "Rust",
+        "Vite"
+      ]
+    },
+    {
+      "name": "broc-launch",
+      "repo": "brocw/broc-launch",
+      "tech": [
+        "Python",
+        "GTK4",
+        "PyGObject",
+        "D-Bus",
+        "GNU/Linux"
+      ]
+    }
+  ]
+}

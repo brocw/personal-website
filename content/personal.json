@@ -1,0 +1,5 @@
+{
+  "_comment": "Short notes shown at the bottom of each Personal card. Plain text; blank lines start a new paragraph and URLs are linked. Leave a value empty to hide it.",
+  "wikipedia": "I mostly make small fixes: broken links, formatting slips, and sentences that drift away from an encyclopedic tone. The articles follow whatever I happen to be reading at the time.",
+  "wordle": "SINEBot, the Discord bot I built for the SINE server, groups together statistics from the Wordle bot and the Connections and Minute Cryptic games. I wrote the bot to have some fun and to see if I wasn't the first (I was the second)."
+}
