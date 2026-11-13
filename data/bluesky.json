@@ -2,6 +2,25 @@
   {
     "source": "bluesky",
     "kind": "repost",
+    "date": "2026-11-12T20:07:07.976Z",
+    "postedAt": "2026-11-05T13:45:26.044Z",
+    "url": "https://bsky.app/profile/rmac.bsky.social/post/3mzkyunqhf225",
+    "author": {
+      "name": "Ryan Mac 🙃",
+      "handle": "rmac.bsky.social",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:emhyi4kljodgqlusdsopgfgd/bafkreiemukf2cqgnjkcnhvfdqrsscnmfo5eqrgx7nwzqwn372jr4n6zhrm"
+    },
+    "html": "<p>We spent months reporting on Dario Amodei and why he thinks about AI the way he does. What we found was a man — influenced by rationalism, effective altruism and Ray Kurzweil — who survived a fight with testicular cancer and is now leading a trillion-dollar AI lab.<br><br><a href=\"https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html?unlocked_article_code=1.OFE.CslN.usTW7cxPf_1Y&amp;smid=url-share\" rel=\"noopener\">www.nytimes.com/2026/11/05/t...</a></p>",
+    "link": {
+      "url": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html?unlocked_article_code=1.OFE.CslN.usTW7cxPf_1Y&smid=url-share",
+      "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I. (Gift Article)",
+      "description": "Some call him a doomer. Others see him as a responsible technologist. Here’s how the Anthropic chief executive’s thinking on artificial intelligence was shaped.",
+      "image": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:emhyi4kljodgqlusdsopgfgd/bafkreifzwjfzmfunkujujpifo4x7iki633ndpifzo3ntjkxay2ulm2zocu"
+    }
+  },
+  {
+    "source": "bluesky",
+    "kind": "repost",
     "date": "2026-10-28T15:41:29.176Z",
     "postedAt": "2026-10-27T21:36:48.249Z",
     "url": "https://bsky.app/profile/hexmani.ac/post/3myv6zam4kirk",
@@ -585,7 +604,7 @@
     "author": {
       "name": "Eugene Vinitsky 🍒",
       "handle": "eugenevinitsky.bsky.social",
-      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5wm25vgenhgut3iqfjf4ozj5/bafkreiaiqltnxwgu5jdoihiyy7zcqgxhu2wlw46jtxtoy6jmhvfbre3fty"
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5wm25vgenhgut3iqfjf4ozj5/bafkreiheuntnwzl6p2cyxmz3dkzpzompdrv2aekposlpsbsfureqdmfc7a"
     },
     "html": "<p>To understand what&#39;s happening, you need to understand that some people genuinely, without any artifice, believe we are getting recursive self-improving intelligence in the next year or two. Folks view this as akin to the race for nuclear weapons in terms of international import.</p>"
   },
