@@ -2,6 +2,19 @@
   {
     "source": "bluesky",
     "kind": "repost",
+    "date": "2026-11-19T17:21:17.352Z",
+    "postedAt": "2026-11-19T17:02:36.838Z",
+    "url": "https://bsky.app/profile/anthropicai.xmirror.bot/post/3n2okg5ck4e26",
+    "author": {
+      "name": "Anthropic {bot}",
+      "handle": "anthropicai.xmirror.bot",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:r6zamcgevu2oujnhslsgblol/bafkreig67qqqiz4iqei5yniym3cbwrhdnvmzcg2n3e2zjmkicfs3xx7o6m"
+    },
+    "html": "<p>Remarks from Anthropic CEO <a href=\"https://x.com/DarioAmodei\" rel=\"noopener\">@DarioAmodei</a> on our initial public offering:<br><br>My co-founders and I started Anthropic because we believe that the most powerful technology of our time should be built for the benefit of humankind.</p>"
+  },
+  {
+    "source": "bluesky",
+    "kind": "repost",
     "date": "2026-11-12T20:07:07.976Z",
     "postedAt": "2026-11-05T13:45:26.044Z",
     "url": "https://bsky.app/profile/rmac.bsky.social/post/3mzkyunqhf225",
@@ -1129,11 +1142,11 @@
     "kind": "repost",
     "date": "2025-10-06T17:42:21.366Z",
     "postedAt": "2025-10-06T16:30:48.312Z",
-    "url": "https://bsky.app/profile/siobhan-m.bsky.social/post/3m2jzwpc7vk2q",
+    "url": "https://bsky.app/profile/siobhanforcambridge.com/post/3m2jzwpc7vk2q",
     "author": {
-      "name": "siobhan mcdonough",
-      "handle": "siobhan-m.bsky.social",
-      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:f4kb6g3gvmmvnei5o3dausmf/bafkreihokndhpt7m2hyjisjinnjgeptbyhjrqqhoftazb7bujbd2ghcemm"
+      "name": "Siobhan McDonough",
+      "handle": "siobhanforcambridge.com",
+      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:f4kb6g3gvmmvnei5o3dausmf/bafkreial5a7rfs4la6x2jrrbp4k263jvqmjelntlqvzhsd6goyodc6fehe"
     },
     "html": "<p>well, <a href=\"https://bsky.app/profile/did:plc:rsanren2pvtaxpphprqehalo\" rel=\"noopener\">@demsocialists.bsky.social</a> is a democratic, member-run organization fighting for a better world, and <a href=\"https://bsky.app/profile/did:plc:k5nskatzhyxersjilvtnz4lh\" rel=\"noopener\">@washingtonpost.com</a> is owned by one of the richest men in the world who uses it to push his anti-worker propaganda</p>",
     "images": [
@@ -1700,25 +1713,6 @@
     "images": [
       {
         "src": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:pqfa5ati67db4mvm6gdsxfzz/bafkreihmis5gye4qudw42up3o676eole7khwvoqwlbvhrlfpczwzeqvxjm",
-        "alt": ""
-      }
-    ]
-  },
-  {
-    "source": "bluesky",
-    "kind": "repost",
-    "date": "2025-02-07T14:59:36.359Z",
-    "postedAt": "2025-02-07T00:03:34.364Z",
-    "url": "https://bsky.app/profile/demsocialists.bsky.social/post/3lhkcfjcooc2n",
-    "author": {
-      "name": "Democratic Socialists of America",
-      "handle": "demsocialists.bsky.social",
-      "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rsanren2pvtaxpphprqehalo/bafkreif2cc2xxg4husmg6l6n3mfbxwnu3726drcy7rd4fghgxwja7mvtz4"
-    },
-    "html": "<p>To beat fascism, we need socialism. The Democratic Socialists of America stands with everyone under assault by the Trump administration. We call on everyone ready to fight back to join us and organize for a better world.<br><br>Read the full statement here: <a href=\"https://www.dsausa.org/es/statements/to-beat-fascism-we-need-socialism/\" rel=\"noopener\">www.dsausa.org/es/statement...</a></p>",
-    "images": [
-      {
-        "src": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:rsanren2pvtaxpphprqehalo/bafkreidw4obb2kc33fmqp2gqbqb645zs2ui5oubuajywywtzpr33xylxrm",
         "alt": ""
       }
     ]
